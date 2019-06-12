@@ -3,11 +3,11 @@
 Mavcat is a fast udp file transfer tool for long distance with high packet loss.
 
 #### **Features**
-Very fast transfer speed,faster than any existing opensource tools
-Support client do not have a public IP address
-User-friendly Java Sdk,easy to use
-Can Resume from break point
-Using Both UDP and TCP for fast file transfer
+Very fast transfer speed,faster than any existing opensource tools  
+Support client do not have a public IP address  
+User-friendly Java Sdk,easy to use  
+Can Resume from break point  
+Using Both UDP and TCP for fast file transfer  
 
 #### **Compile**
 `./gradlew build`
