@@ -1,13 +1,19 @@
-##### **About Mavcat**
+#### **About Mavcat**
 
-Mavcat is a fast udp file transfer tool for long distance with high packet loss.Compare to tsunami,
-It has a user friendly sdk,and it support client with no public ip address.Definitly,it's faster than tsunami.
+Mavcat is a fast udp file transfer tool for long distance with high packet loss.
 
+#### **Features**
+Very fast transfer speed,faster than any existing opensource tools
+Support client do not have a public IP address
+User-friendly Java Sdk,easy to use
+Can Resume from break point
+Using Both UDP and TCP for fast file transfer
 
-##### **Compile**
+#### **Compile**
 `./gradlew build`
 
-##### **Using Client**
+#### **Using Client**
+Client uses sdk,it is also a good place to understand sdk
 ```
 java -jar client-java.jar
 type command next
@@ -16,7 +22,7 @@ get remotepath localpath  // download file
 set bandwidth             // set server sending rate
 ```
 
-##### **Using Server**
+#### **Using Server**
 
 ```
 Usage: java -jar server.jar [-hV] [-enable_api]... [-d=<dir>] [-p=<port>]
