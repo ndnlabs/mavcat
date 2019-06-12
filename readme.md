@@ -8,6 +8,7 @@ Support client do not have a public IP address
 User-friendly Java Sdk,easy to use  
 Can Resume from break point  
 Using Both UDP and TCP for fast file transfer  
+Support Authentication
 
 #### **Compile**
 `./gradlew build`
