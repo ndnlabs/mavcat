@@ -1,0 +1,4 @@
+rootProject.name = 'mavcat'
+include 'mavcat-server'
+include 'mavcat-client'
+include 'mavcat-client-sdk'

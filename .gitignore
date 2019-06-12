@@ -1,0 +1,8 @@
+*/build/
+*/out/
+client-file/
+server-file/
+.idea/
+.gradle/
+*.iml
+example.log
